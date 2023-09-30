@@ -11,7 +11,6 @@ public class MyArray {
 	//reverse order like a mirror 
 	//Example: input [1, 2, 3] ==> output: [1, 2, 3, 3, 2, 1]
 	public int[] mirror() {
-		//TODO
 		int[] mirrorArray = new int[array.length*2];
 		for (int i = 0; i < array.length; i++) {
 			mirrorArray[i]= array[i];
@@ -44,7 +43,6 @@ public class MyArray {
 	// Output: 15 18
 
 	public int[] getMissingValues() {
-		// TODO
 		int min = array[0];
 	    int max = array[0];
 	    

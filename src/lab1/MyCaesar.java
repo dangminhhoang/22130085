@@ -17,8 +17,7 @@ public class MyCaesar {
 	}
 
 	// Encrypt a character according to the given shif steps.
-	// Encrypt: En(x) = (x + n) mod 26. x represents the index of c in the
-//	ALPHABET
+	// Encrypt: En(x) = (x + n) mod 26. x represents the index of c in the ALPHABET
 	// array
 	public char encryptChar(char c) {
 		char result = 0;
